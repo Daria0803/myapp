@@ -17,7 +17,7 @@ class SolrDisplay extends Component {
     const zip = this.props.zip;
     //const cors = require("cors")
     //app.use(cors())
-    const URL = "http://localhost:8983/solr/test/select?q=*%3A*&appid=b1b35bba8b434a28a0be2a3e1071ae5b&units=imperial";
+    const URL = "http://localhost:8983/solr/test-wet/select?q=*%3A*&appid=b1b35bba8b434a28a0be2a3e1071ae5b&units=imperial";
     //fetch(URL).then(response => response.json())
     //.then(result => {this.setState({ solrData: result });
     //});
